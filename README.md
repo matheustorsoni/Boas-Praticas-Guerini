@@ -8,8 +8,10 @@
 ## Tabela de conteúdos
 <!--ts-->
    * [Como criar uma branch](#como-criar-uma-branch)
-   * [Como Mudar a branch](#como-mudar-a-branch)
-   * [Como atualizar e commitar uma branch](#como-atualizar-e-commitar-uma-branch)
+   * [Como mudar a branch](#como-mudar-a-branch)
+   * [Como atualizar uma branch](#como-atualizar-uma-branch)
+   * [Como commitar uma branch](#como-commitar-uma-branch)
+   * [Como fazer um push](#como-fazer-um-push)
    * [Autor](#Autor)
 
 <!--te-->
@@ -39,7 +41,7 @@ $ git checkout -b nome-da-branch
 
 
 --------------------
-## Como Mudar a branch
+## Como mudar a branch
 
 <p>Para mudar de branch é muito simples, execute este comando no terminal:</p>
 
@@ -54,10 +56,63 @@ $ git checkout nome-da-branch
 <img src="scr\checkout1.jpeg" width="900px;" alt=""/>
 
 --------------------
-## Como atualizar e commitar uma branch
+## Como atualizar uma branch
+
+<p> Primeiramente para saber se sua branch esta atualizada ou nao sempre devemos dar um git pull antes de começarmos o projeto mas oque é um git pull?
+O comando git pull é usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais. Fazer o merge de alterações upstream remotas no repositório local é algo comum em fluxos de trabalho de colaboração baseados em Git. </p>
+
+```bash
+# COMO FAZER UM GIT PULL:
+$ git pull origin main
+
+# A MAIN É REFERENTE A BRANCH QUE VOCE GOSTARIA DE PUXAR 
+# NO CASO ESTOU PUXANDO DA BRANCH MAIN
+
+```
+<h3>Exemplo em imagens📌</h3>
+<img src="scr\" width="900px;" alt=""/>
 
 
+--------------------
+## Como commitar uma branch
 
+<p> Oque sao commits, criados com o comando git commit para capturar o estado de um projeto naquele momento.</p>
+
+```bash
+# COMO FAZER UM COMMIT:
+# PRIMEIRO DEVEMOS ADICIONAR AS NOSSAS ALTERAÇOES.
+
+$ git add .
+
+# COM ESTE COMANDO ESTAREMOS ADICIONANDO TODAS AS ALTEREÇOES FEITAS.
+# DEPOIS DEVEMOS COMMITAR COM O SEGUINTE COMANDO
+
+$ git commit -m "Breve explicaçao da alteração
+
+# PARA CONFIRMAR SE TODAS AS ALTERAÇOES FORAM FEITAS DE UM GIT STATUS
+
+$ git status
+
+```
+
+<h3>Exemplo em imagens📌</h3>
+<img src="scr\" width="900px;" alt=""/>
+
+
+--------------------
+## Como fazer um push 
+
+<p>Apos commitarmos devemos subir o nosso projeto para o github ou onde esta armazenado ou seu projeto, para isso devemos fazer um push seguindo estes comandos</p>
+
+```bash
+# PARA FAZER UM PUSH:
+$ git push origin nome-da-branch
+
+```
+<h3>Exemplo em imagens📌</h3>
+
+<img src="scr\checkout.jpeg" width="900px;" alt=""/>
+<img src="scr\checkout1.jpeg" width="900px;" alt=""/>
 
 --------------------
 
