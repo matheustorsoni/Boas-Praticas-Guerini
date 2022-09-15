@@ -7,29 +7,60 @@
 --------------------
 ## Tabela de conteúdos
 <!--ts-->
-   * [](#)
-   * [](#)
+   * [Como criar uma branch](#Como criar uma branch)
+   * [Como Mudar a branch](#Como Mudar a branch)
+   * [Como atualizar e commitar uma branch](#Como atualizar e commitar uma branch)
+   * [Autor](#Autor)
 
 <!--te-->
+--------------------
+##  Como criar uma branch
+<p> Os repositórios no GitHub funcionam como uma árvore. Quando criamos um repositório, ele automaticamente é iniciado com a branch master, que é equivalente ao tronco da sua árvore, ou seja, é a parte principal do seu projeto. As próximas branches são secundárias e, portanto, ramos da branch master. 
+Em aplicações desenvolvidas por mais de uma pessoa, é uma boa prática que além da master, cada desenvolvedor crie e desenvolva seu código em sua própria branch, que pode ter qualquer nome.
+ 
+  
+Como criar uma branch:
+Abra seu terminal certifique-se que esta na branch master/main digite o seguinte comando:</p>
 
-
-<h3> 📌  </h3>
-<img src="scr\checkout.jpeg" width="900px;" alt=""/>
-
-
-------------
-## 🎲 Rodando o servidor local
 ```bash
-# Clone este repositório
-$ git clone <https://github.com/matheustorsoni/bootcamp-eduzz-dio-url.git>
+# PARA VERIFICAR A BRANCH:
+$ git checkout main 
 
-# Acesse a pasta do projeto no terminal/cmd ou usando a opcao guit bash here
-$ cd nomedapasta
+# PARA GERAR UMA NOVA BRANCH:
+$ git checkout -b nome-da-branch
 
-# Execute 
-$ npm run dev
 ```
------------------
+
+<h3>Exemplo em imagens📌</h3>
+
+<img src="scr\open-terminal.jpeg" width="900px;" alt=""/>
+<img src="scr\create-branch.jpeg" width="900px;" alt=""/>
+<img src="scr\create-branch-1.jpeg" width="900px;" alt=""/>
+
+
+--------------------
+##  Como Mudar a branch
+
+<p>Para mudar de branch é muito simples, execute este comando no terminal:</p>
+
+```bash
+# PARA TROCAR A BRANCH:
+$ git checkout nome-da-branch
+
+```
+<h3>Exemplo em imagens📌</h3>
+
+<img src="scr\checkout.jpeg" width="900px;" alt=""/>
+<img src="scr\checkout1.jpeg" width="900px;" alt=""/>
+
+--------------------
+##  Como atualizar e commitar uma branch
+
+
+
+
+--------------------
+
 ## Autor
 
 
