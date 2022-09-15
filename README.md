@@ -122,7 +122,7 @@ $ git push origin nome-da-branch
 ## Autor
 
 
- <img style="border-radius: 50%;" src="imagens\FotoPerfil.jpeg" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="scr/FotoPerfil.jpeg" width="100px;" alt=""/>
   <br />
  <sub><b>Matheus Torsoni</b></sub></a>
 
