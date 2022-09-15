@@ -14,7 +14,7 @@
 
 <!--te-->
 --------------------
-##  Como criar uma branch
+## Como criar uma branch
 <p> Os repositórios no GitHub funcionam como uma árvore. Quando criamos um repositório, ele automaticamente é iniciado com a branch master, que é equivalente ao tronco da sua árvore, ou seja, é a parte principal do seu projeto. As próximas branches são secundárias e, portanto, ramos da branch master. 
 Em aplicações desenvolvidas por mais de uma pessoa, é uma boa prática que além da master, cada desenvolvedor crie e desenvolva seu código em sua própria branch, que pode ter qualquer nome.
  
@@ -39,7 +39,7 @@ $ git checkout -b nome-da-branch
 
 
 --------------------
-##  Como Mudar a branch
+## Como Mudar a branch
 
 <p>Para mudar de branch é muito simples, execute este comando no terminal:</p>
 
@@ -54,7 +54,7 @@ $ git checkout nome-da-branch
 <img src="scr\checkout1.jpeg" width="900px;" alt=""/>
 
 --------------------
-##  Como atualizar e commitar uma branch
+## Como atualizar e commitar uma branch
 
 
 
