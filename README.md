@@ -7,9 +7,9 @@
 --------------------
 ## Tabela de conteúdos
 <!--ts-->
-   * [Como criar uma branch](#Como criar uma branch)
-   * [Como Mudar a branch](#Como Mudar a branch)
-   * [Como atualizar e commitar uma branch](#Como atualizar e commitar uma branch)
+   * [Como criar uma branch](#como-criar-uma-branch)
+   * [Como Mudar a branch](#como-mudar-a-branch)
+   * [Como atualizar e commitar uma branch](#como-atualizar-e-commitar-uma-branch)
    * [Autor](#Autor)
 
 <!--te-->
