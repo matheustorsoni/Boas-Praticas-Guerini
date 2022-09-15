@@ -14,7 +14,7 @@
 
 
 <h3> 📌  </h3>
-<img src="imagens\imagem3.png" width="900px;" alt=""/>
+<img src="scr\checkout.jpeg" width="900px;" alt=""/>
 
 
 ------------
