@@ -70,7 +70,8 @@ $ git pull origin main
 
 ```
 <h3>Exemplo em imagens📌</h3>
-<img src="scr\" width="900px;" alt=""/>
+<img src="scr\Screenshot_6.png" width="900px;" alt=""/>
+<img src="scr\Screenshot_7.png" width="900px;" alt=""/>
 
 
 --------------------
@@ -96,7 +97,9 @@ $ git status
 ```
 
 <h3>Exemplo em imagens📌</h3>
-<img src="scr\" width="900px;" alt=""/>
+<img src="scr\Screenshot_8.png" width="900px;" alt=""/>
+<img src="scr\Screenshot_9.png" width="900px;" alt=""/>
+<img src="scr\Screenshot_10.png" width="900px;" alt=""/>
 
 
 --------------------
@@ -111,8 +114,8 @@ $ git push origin nome-da-branch
 ```
 <h3>Exemplo em imagens📌</h3>
 
-<img src="scr\checkout.jpeg" width="900px;" alt=""/>
-<img src="scr\checkout1.jpeg" width="900px;" alt=""/>
+<img src="scr\Screenshot_11.png" width="900px;" alt=""/>
+<img src="scr\Screenshot_12.png" width="900px;" alt=""/>
 
 --------------------
 
